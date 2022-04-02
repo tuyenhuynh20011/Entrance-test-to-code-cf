@@ -1,0 +1,47 @@
+.radio-toolbar input[type=radio] {
+    display: none;
+}
+input {
+    background: #e1e1e1;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 11px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-left: 4px;
+}
+.radio-toolbar label {
+    display: inline-block;
+    padding: 4px 11px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #e1e1e1;
+}
+button, .button, .btn {
+    font-family: inter!important;
+    font-feature-settings: 'liga' 1;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 11px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #21253f;
+    color: #fff;
+    width: auto;
+    max-width: 100%;
+}
+.main-area .inner {
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    margin: 0;
+    padding: 36px 40px;
+    width: calc(100% - 80px);
+    height: auto;
+    margin-top: 30px;
+}   
